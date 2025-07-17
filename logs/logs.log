@@ -1,0 +1,8 @@
+2025-06-23 09:56:13 INFO  VerifyLoginFunctionality - TC001_vlaidLoginTest started
+2025-06-23 09:56:19 INFO  VerifyLoginFunctionality - Valid login test successfull
+2025-06-23 09:56:19 INFO  VerifyLoginFunctionality - TC002_InvalidLogin Started
+2025-06-23 09:56:22 INFO  VerifyLoginFunctionality - Login with invalis credentials successfull
+2025-06-23 09:56:22 INFO  VerifyLoginFunctionality - TC003_blank_username_password_fields Started
+2025-06-23 09:56:22 INFO  VerifyLoginFunctionality - Login with blank username and password verified successfully
+2025-06-23 09:56:22 INFO  VerifyLoginFunctionality - TC004_TestForgotPasswordLink Started
+2025-06-23 09:56:25 INFO  VerifyLoginFunctionality - Reset password link verified successfully

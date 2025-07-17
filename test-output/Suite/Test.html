@@ -1,0 +1,129 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Jun 21 12:30:01 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>112 seconds (112785 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.orangeHRM_Dashboard.VerifyAccessControl.TC001_accessControlValidation()'><b>TC001_accessControlValidation</b><br>Test class: com.orangeHRM_Dashboard.VerifyAccessControl<br>Parameters: rupesh123, rupesh@123</td>
+<td></td>
+<td>3</td>
+<td>com.orangeHRM_Dashboard.VerifyAccessControl@6b739528</td></tr>
+<tr>
+<td title='com.orangeHRM_Dashboard.VerifyDeleteEmployee.TC001_deleteUser()'><b>TC001_deleteUser</b><br>Test class: com.orangeHRM_Dashboard.VerifyDeleteEmployee</td>
+<td></td>
+<td>7</td>
+<td>com.orangeHRM_Dashboard.VerifyDeleteEmployee@622ef26a</td></tr>
+<tr>
+<td title='com.orangeHRM_Dashboard.VerifyUserManagementAdminModule.TC001_viewUserList()'><b>TC001_viewUserList</b><br>Test class: com.orangeHRM_Dashboard.VerifyUserManagementAdminModule</td>
+<td></td>
+<td>8</td>
+<td>com.orangeHRM_Dashboard.VerifyUserManagementAdminModule@3ef41c66</td></tr>
+<tr>
+<td title='com.orangeHRM_Dashboard.VerifyLoginFunctionality.TC001_vlaidLoginTest()'><b>TC001_vlaidLoginTest</b><br>Test class: com.orangeHRM_Dashboard.VerifyLoginFunctionality</td>
+<td></td>
+<td>4</td>
+<td>com.orangeHRM_Dashboard.VerifyLoginFunctionality@13c612bd</td></tr>
+<tr>
+<td title='com.orangeHRM_Dashboard.VerifyLoginFunctionality.TC002_InvalidLogin()'><b>TC002_InvalidLogin</b><br>Test class: com.orangeHRM_Dashboard.VerifyLoginFunctionality</td>
+<td></td>
+<td>2</td>
+<td>com.orangeHRM_Dashboard.VerifyLoginFunctionality@13c612bd</td></tr>
+<tr>
+<td title='com.orangeHRM_Dashboard.VerifyUserManagementAdminModule.TC002_testUsersExist()'><b>TC002_testUsersExist</b><br>Test class: com.orangeHRM_Dashboard.VerifyUserManagementAdminModule</td>
+<td></td>
+<td>3</td>
+<td>com.orangeHRM_Dashboard.VerifyUserManagementAdminModule@3ef41c66</td></tr>
+<tr>
+<td title='com.orangeHRM_Dashboard.VerifyLoginFunctionality.TC003_blank_username_password_fields()'><b>TC003_blank_username_password_fields</b><br>Test class: com.orangeHRM_Dashboard.VerifyLoginFunctionality</td>
+<td></td>
+<td>0</td>
+<td>com.orangeHRM_Dashboard.VerifyLoginFunctionality@13c612bd</td></tr>
+<tr>
+<td title='com.orangeHRM_Dashboard.VerifyUserManagementAdminModule.TC003_testAddNewEmployee()'><b>TC003_testAddNewEmployee</b><br>Test class: com.orangeHRM_Dashboard.VerifyUserManagementAdminModule<br>Parameters: Rupesh, Janardan, Hirve</td>
+<td></td>
+<td>7</td>
+<td>com.orangeHRM_Dashboard.VerifyUserManagementAdminModule@3ef41c66</td></tr>
+<tr>
+<td title='com.orangeHRM_Dashboard.VerifyLoginFunctionality.TC004_TestForgotPasswordLink()'><b>TC004_TestForgotPasswordLink</b><br>Test class: com.orangeHRM_Dashboard.VerifyLoginFunctionality</td>
+<td></td>
+<td>3</td>
+<td>com.orangeHRM_Dashboard.VerifyLoginFunctionality@13c612bd</td></tr>
+<tr>
+<td title='com.orangeHRM_Dashboard.VerifyUserManagementAdminModule.TC004_addNewUser()'><b>TC004_addNewUser</b><br>Test class: com.orangeHRM_Dashboard.VerifyUserManagementAdminModule<br>Parameters: ESS, Enabled, Rupesh Janardan Hirve, rupesh123, rupesh@123, rupesh@123</td>
+<td></td>
+<td>15</td>
+<td>com.orangeHRM_Dashboard.VerifyUserManagementAdminModule@3ef41c66</td></tr>
+</table><p>
+</body>
+</html>
