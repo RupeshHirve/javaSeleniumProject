@@ -14,7 +14,7 @@
 ---
 
 ## 📂 Featured Projects
-### 🔹Project 3: Title: Project Lifecycle Management (3D Experience) 
+### 🔹[Project 3: Title: Project Lifecycle Management (3D Experience)] 
 Tools/Utilities: Selenium, Eclipse, Git and GitHub, Cucumber, BDD, Pytest, CICD Pipeline using Git, JIRA, Confluence Page 
 Description: It offers a unified environment where all stakeholders can collaborate in real- time, reducing the silos between departments such as design, engineering, manufacturing and marketing. It manages the entire lifecycle of a product from inception through engineering design and manufacturing, to service and disposal. 
 Roles and Responsibility: 
@@ -25,7 +25,7 @@ iv.	Maintenance of Test Automation framework Designing helper methods as per new
 v.	Updating framework as per different environments
 
 
-### 🔹 [OrangeHRM Automation Framework](https://github.com/yourusername/orangehrm-python-automation)
+### 🔹 [OrangeHRM Automation Framework]
 > Python + Selenium + pytest-bdd  
 - Page Object Model (POM)
 - Data-driven testing
