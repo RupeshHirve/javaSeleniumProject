@@ -14,7 +14,7 @@
 ---
 
 ## 📂 Featured Projects
-### 🔹1.	Project 3: Title: Project Lifecycle Management (3D Experience) 
+### 🔹Project 3: Title: Project Lifecycle Management (3D Experience) 
 Tools/Utilities: Selenium, Eclipse, Git and GitHub, Cucumber, BDD, Pytest, CICD Pipeline using Git, JIRA, Confluence Page 
 Description: It offers a unified environment where all stakeholders can collaborate in real- time, reducing the silos between departments such as design, engineering, manufacturing and marketing. It manages the entire lifecycle of a product from inception through engineering design and manufacturing, to service and disposal. 
 Roles and Responsibility: 
